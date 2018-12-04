@@ -108,7 +108,7 @@ public class UruchomienieAplikacji extends UruchomienieAplikacjiHelper {
 
 	private boolean sprawdzenieNumeruKontrahenta(String clientNumber) {
 
-		logowanieDoObuRaportow("Pobrany numer ewidencyjny ENEA centrum: " + clientNumber);
+		logowanieDoObuRaportow("Pobrany numer ewidencyjny centrum: " + clientNumber);
 
 		boolean numerKontrahentaZaczynaSieOdCyfry2 = clientNumber.startsWith("2");
 		boolean dlugoscNumeruKontrahentaWynosi8 = clientNumber.length() == 8;
