@@ -1,0 +1,1 @@
+echo "C:\Program Files\IBM\SDP\jdk\jre\bin\java" -classpath "C:\Program Files\IBM\SDP\FunctionalTester\bin\rational_ft.jar;C:\Program Files\IBM\SDP\FunctionalTester\bin\rpa_dbconnect.jar" com.rational.test.ft.rational_ft -datastore "Robot_CHARLIE_DATASTORE" -playback "Robot_CHARLIE" -log "ROBOT_CHARLIE_LOG"
